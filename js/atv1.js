@@ -2,8 +2,8 @@
 descrição com o valor “Mouse”. Mostre no console o valor dos dois atributos.*/
 
 let eletronicos = {
-    descricao:'mouse',
-    valor:90.00
+    descricao: 'mouse',
+    valor: 90.00
 }
 
 console.log(eletronicos)

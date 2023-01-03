@@ -11,7 +11,7 @@ let continua1 = true;
 let continua2 = true;
 
 do {
-    
+
     let alunoSkill = {}
 
     const nome = prompt("Digite seu nome: ")
@@ -27,13 +27,13 @@ do {
         continua2 = confirm("Deseja cadastrar mais uma skill?")
     } while (continua2);
     listaSkills = [];
-  
+
     listaAlunoSkill.push(alunoSkill)
     continua1 = confirm("Deseja cadastrar mais um aluno?")
 } while (continua1);
 
 function contemSkill(listaAlunos, skill) {
-    const skills = listaAlunos.filter ( (valor, indice, array) => valor.skills.includes(skill) )
+    const skills = listaAlunos.filter((valor, indice, array) => valor.skills.includes(skill))
     console.log(skills)
 }
 
